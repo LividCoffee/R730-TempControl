@@ -1,0 +1,105 @@
+{
+  "instances": [
+    {
+      "id": "vanilla-1.20.1",
+      "name": "Vanilla 1.20.1",
+      "version": "1.20.1",
+      "description": "Официальная версия Minecraft без модов",
+      "icon": null,
+      "is_installed": false,
+      "is_updating": false,
+      "progress": 0.0,
+      "files": [
+        {
+          "path": "libraries/net/minecraft/client/1.20.1/client-1.20.1.jar",
+          "sha256": "a1d6fb719db2315639507dcec6b2113c4d1a9e8b",
+          "url": "https://libraries.minecraft.net/net/minecraft/client/1.20.1/client-1.20.1.jar",
+          "size": 12345678
+        },
+        {
+          "path": "libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "sha256": "630ea2e70c45e31bbe8c7fb3e0606c60a8e5b317",
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "size": 4567890
+        }
+      ],
+      "servers": [
+        {
+          "ip": "mc.quink.studio",
+          "motd": "Quink Studio Server",
+          "port": 25565
+        }
+      ],
+      "java_version": "17",
+      "memory_min": "1G",
+      "memory_max": "4G"
+    },
+    {
+      "id": "fabric-1.20.1",
+      "name": "Fabric 1.20.1",
+      "version": "1.20.1-fabric",
+      "description": "Minecraft с Fabric загрузчиком и популярными модами",
+      "icon": null,
+      "is_installed": true,
+      "is_updating": false,
+      "progress": 0.0,
+      "files": [
+        {
+          "path": "mods/fabric-api-0.91.0+1.20.1.jar",
+          "sha256": "fabric-api-hash-here",
+          "url": "https://modrinth.com/api/v1/versions/fabric-api-0.91.0+1.20.1.jar",
+          "size": 2345678
+        },
+        {
+          "path": "mods/sodium-fabric-mc1.20.1-0.5.8.jar",
+          "sha256": "sodium-hash-here",
+          "url": "https://modrinth.com/api/v1/versions/sodium-fabric-mc1.20.1-0.5.8.jar",
+          "size": 3456789
+        }
+      ],
+      "servers": [
+        {
+          "ip": "fabric.quink.studio",
+          "motd": "Fabric Server",
+          "port": 25566
+        }
+      ],
+      "java_version": "17",
+      "memory_min": "2G",
+      "memory_max": "6G"
+    },
+    {
+      "id": "forge-1.19.2",
+      "name": "Forge 1.19.2",
+      "version": "1.19.2-forge",
+      "description": "Minecraft с Forge загрузчиком",
+      "icon": null,
+      "is_installed": false,
+      "is_updating": false,
+      "progress": 0.0,
+      "files": [
+        {
+          "path": "mods/jei-1.19.2-forge-11.6.0.101.jar",
+          "sha256": "jei-hash-here",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/jei/download/jei-1.19.2-forge-11.6.0.101.jar",
+          "size": 4567890
+        }
+      ],
+      "servers": [
+        {
+          "ip": "forge.quink.studio",
+          "motd": "Forge Server",
+          "port": 25567
+        }
+      ],
+      "java_version": "17",
+      "memory_min": "2G",
+      "memory_max": "6G"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-15T12:00:00Z",
+    "total_instances": 3
+  }
+} 
